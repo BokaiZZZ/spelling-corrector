@@ -21,7 +21,7 @@ def levenshtein_distance(A, B):
 def search_word(sample):
     
     # read the word list from txt file
-    f = open("./count_1w.txt", "r")
+    f = open("./count_1w.txt", encoding="utf-8", mode="r")
     for line in f:
         words = [line.strip().split('\t')[0] for line in f.readlines()]
     if sample in words:
