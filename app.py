@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     """Return a friendly HTTP greeting."""
-    return "Welcome to the simple spelling corrector interface!"
+    return "Welcome to this simple spelling corrector interface!"
 
 
 @app.route("/correct/<string:word>")
