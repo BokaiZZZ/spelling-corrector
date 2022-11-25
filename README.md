@@ -10,6 +10,8 @@ This project is a spelling corrector based on the Levenshtein distance. It is im
 
 Access the deployed website [here](https://spelling-corrector-flask.ue.r.appspot.com/)
 
+Watch the video demo of this project [here](https://youtu.be/nDFUZ_FOGkI)
+
 ## Functionality 
 
 The microservice can correct a mis-spelling word and return the corrected word. If the input word has no spelling errors, it will just return the original word. 
