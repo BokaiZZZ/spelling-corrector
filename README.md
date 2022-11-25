@@ -1,11 +1,12 @@
 # Spelling Corrector Microservice
+[![Python application test with Github Actions](https://github.com/BokaiZZZ/spelling-corrector/actions/workflows/main.yml/badge.svg)](https://github.com/BokaiZZZ/spelling-corrector/actions/workflows/main.yml)
 
 This is the 4th individual project of IDS706 in Duke University.
 
 
 ## Project Introduction
 
-This project is a spelling corrector based on the Levenshtein distance. It is implemented as a Flask microservice, which is deployed using Google App Engine. Continuous delivery is implemented by Cloud Bulid in GCP.
+This project is a spelling corrector based on the Levenshtein distance. It is implemented as a Flask microservice, which is deployed using Google App Engine. Continuous delivery is implemented by Cloud Bulid in GCP and Continuous Integration is reliazed through Github Actions.
 
 Access the deployed website [here](https://spelling-corrector-flask.ue.r.appspot.com/)
 
